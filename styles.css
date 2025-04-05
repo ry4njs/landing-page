@@ -1,0 +1,139 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', Times, serif;
+}
+
+.top-section {
+    background-color: #1F2937;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 10px;
+}
+
+.header .logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.header ul {
+    font-size: 18px;
+    color: #E5E7EB;
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.header a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+.hero-section {
+    display: flex;
+    padding: 100px;
+    justify-content: space-around;
+}
+
+.hero {
+    min-height: 200px;
+    font-size: 18px;
+    color: #E5E7EB;
+    max-width: 450px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.hero-section img {
+    margin-left: 44px;
+    max-height: 200px;
+}
+
+.hero-section button {
+    background-color: #3882F6;
+    font-size: 18px;
+    color: #E5E7EB;
+    padding: 5px 20px 5px 20px;
+    border-radius: 8px;
+}
+
+.info-section .title {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    margin: 50px;
+}
+
+.boxes {
+    color: #1F2937;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.box {
+    width: 150px;
+    height:150px;
+    border: 4px solid #3882F6;
+    border-radius: 10px;
+}
+
+.info-section {
+    margin: 50px;
+    text-align: center;
+}
+
+.quote-section {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    color: #1F2937;
+    padding: 150px;
+    display: flex;
+    flex-direction: column;
+}
+
+.author {
+    align-self: flex-end;
+    font-size: 18px;
+}
+
+.bottom-section {
+    padding: 88px 177px;
+}
+
+.call-to-action {
+    background-color: #3882F6;
+    border-radius: 4px;
+    color: #F9FAF8;
+    display: flex;
+    padding: 33px 77px;
+    justify-content: space-around;
+}
+
+.call-to-action button {
+    background-color: #3882F6;
+    color:#F9FAF8;
+    padding: 5px 20px;
+    border-radius: 8px;
+    border: 2px solid #F9FAF8;
+}
+
+.footer {
+    background-color: #1F2937;
+    font-size: 18px;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    font-size: 18px;
+}
